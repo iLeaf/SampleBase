@@ -10,4 +10,12 @@
 
 @implementation SearchManager
 
+@synthesize mainViewController = mainViewController_;
+@synthesize mapManager = mapManager_;
+
+-(void)setUp 
+{
+    [mapManager_ currentLocation];
+}
+
 @end

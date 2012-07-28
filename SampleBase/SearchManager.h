@@ -8,6 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
+@class MainViewController;
+#import "MapManager.h"
+
 @interface SearchManager : NSObject
+
+@property (nonatomic, assign) IBOutlet MainViewController *mainViewController;
+@property (nonatomic, assign) IBOutlet MapManager *mapManager;
+
+-(void)setUp;
 
 @end

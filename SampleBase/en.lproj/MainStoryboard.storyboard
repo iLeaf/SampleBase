@@ -106,9 +106,22 @@
                     </toolbarItems>
                     <navigationItem key="navigationItem" id="NZt-ZV-SsS"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="mapManager" destination="nCf-JO-Nga" id="NSA-v9-Evl"/>
+                        <outlet property="searchManager" destination="fZ9-vd-baK" id="qaN-xh-ihc"/>
+                    </connections>
                 </viewController>
-                <customObject id="nCf-JO-Nga" customClass="MapManager"/>
-                <customObject id="fZ9-vd-baK" customClass="SearchManager"/>
+                <customObject id="nCf-JO-Nga" customClass="MapManager">
+                    <connections>
+                        <outlet property="mainViewController" destination="MXK-Bo-bxa" id="Uz5-vj-i4v"/>
+                    </connections>
+                </customObject>
+                <customObject id="fZ9-vd-baK" customClass="SearchManager">
+                    <connections>
+                        <outlet property="mainViewController" destination="MXK-Bo-bxa" id="6QL-0W-7L9"/>
+                        <outlet property="mapManager" destination="nCf-JO-Nga" id="75p-PO-FHs"/>
+                    </connections>
+                </customObject>
             </objects>
             <point key="canvasLocation" x="494" y="-163"/>
         </scene>
@@ -140,12 +153,23 @@
     <classes>
         <class className="MainViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/MainViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="mapManager" candidateClass="MapManager"/>
+                <relationship kind="outlet" name="searchManager" candidateClass="SearchManager"/>
+            </relationships>
         </class>
         <class className="MapManager" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/MapManager.h"/>
+            <relationships>
+                <relationship kind="outlet" name="mainViewController" candidateClass="MainViewController"/>
+            </relationships>
         </class>
         <class className="SearchManager" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/SearchManager.h"/>
+            <relationships>
+                <relationship kind="outlet" name="mainViewController" candidateClass="MainViewController"/>
+                <relationship kind="outlet" name="mapManager" candidateClass="MapManager"/>
+            </relationships>
         </class>
         <class className="studio_iLeafViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/studio_iLeafViewController.h"/>

@@ -10,4 +10,11 @@
 
 @implementation MapManager
 
+@synthesize mainViewController = mainViewController_;
+
+-(void)currentLocation
+{
+    NSLog(@"aaa");
+}
+
 @end

@@ -8,6 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
+@class MainViewController;
+
 @interface MapManager : NSObject
+
+@property (nonatomic, assign) IBOutlet MainViewController *mainViewController;
+
+-(void)currentLocation;
 
 @end

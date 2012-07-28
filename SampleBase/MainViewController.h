@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MapManager.h"
+#import "SearchManager.h"
 
 @interface MainViewController : UIViewController
+
+@property (nonatomic, assign) IBOutlet MapManager *mapManager;
+@property (nonatomic, assign) IBOutlet SearchManager *searchManager;
 
 @end
