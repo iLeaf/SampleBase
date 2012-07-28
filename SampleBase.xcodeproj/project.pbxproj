@@ -62,7 +62,6 @@
 		87AD367B15C3D7CD0076A655 = {
 			isa = PBXGroup;
 			children = (
-				87AD36A715C3E1B20076A655 /* MapKit.framework */,
 				87AD369015C3D7CD0076A655 /* SampleBase */,
 				87AD368915C3D7CD0076A655 /* Frameworks */,
 				87AD368715C3D7CD0076A655 /* Products */,
@@ -80,6 +79,7 @@
 		87AD368915C3D7CD0076A655 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				87AD36A715C3E1B20076A655 /* MapKit.framework */,
 				87AD368A15C3D7CD0076A655 /* UIKit.framework */,
 				87AD368C15C3D7CD0076A655 /* Foundation.framework */,
 				87AD368E15C3D7CD0076A655 /* CoreGraphics.framework */,
