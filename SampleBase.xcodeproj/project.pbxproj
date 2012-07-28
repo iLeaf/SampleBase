@@ -15,6 +15,7 @@
 		87AD369B15C3D7CD0076A655 /* studio_iLeafAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87AD369A15C3D7CD0076A655 /* studio_iLeafAppDelegate.m */; };
 		87AD369E15C3D7CD0076A655 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87AD369C15C3D7CD0076A655 /* MainStoryboard.storyboard */; };
 		87AD36A115C3D7CD0076A655 /* studio_iLeafViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87AD36A015C3D7CD0076A655 /* studio_iLeafViewController.m */; };
+		87AD36A815C3E1B20076A655 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87AD36A715C3E1B20076A655 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		87AD369D15C3D7CD0076A655 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		87AD369F15C3D7CD0076A655 /* studio_iLeafViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = studio_iLeafViewController.h; sourceTree = "<group>"; };
 		87AD36A015C3D7CD0076A655 /* studio_iLeafViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = studio_iLeafViewController.m; sourceTree = "<group>"; };
+		87AD36A715C3E1B20076A655 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87AD36A815C3E1B20076A655 /* MapKit.framework in Frameworks */,
 				87AD368B15C3D7CD0076A655 /* UIKit.framework in Frameworks */,
 				87AD368D15C3D7CD0076A655 /* Foundation.framework in Frameworks */,
 				87AD368F15C3D7CD0076A655 /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +53,7 @@
 		87AD367B15C3D7CD0076A655 = {
 			isa = PBXGroup;
 			children = (
+				87AD36A715C3E1B20076A655 /* MapKit.framework */,
 				87AD369015C3D7CD0076A655 /* SampleBase */,
 				87AD368915C3D7CD0076A655 /* Frameworks */,
 				87AD368715C3D7CD0076A655 /* Products */,
