@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87AD368B15C3D7CD0076A655 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87AD368A15C3D7CD0076A655 /* UIKit.framework */; };
+		87AD368D15C3D7CD0076A655 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87AD368C15C3D7CD0076A655 /* Foundation.framework */; };
+		87AD368F15C3D7CD0076A655 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87AD368E15C3D7CD0076A655 /* CoreGraphics.framework */; };
+		87AD369515C3D7CD0076A655 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87AD369315C3D7CD0076A655 /* InfoPlist.strings */; };
+		87AD369715C3D7CD0076A655 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87AD369615C3D7CD0076A655 /* main.m */; };
+		87AD369B15C3D7CD0076A655 /* studio_iLeafAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87AD369A15C3D7CD0076A655 /* studio_iLeafAppDelegate.m */; };
+		87AD369E15C3D7CD0076A655 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87AD369C15C3D7CD0076A655 /* MainStoryboard.storyboard */; };
+		87AD36A115C3D7CD0076A655 /* studio_iLeafViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87AD36A015C3D7CD0076A655 /* studio_iLeafViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		87AD368615C3D7CD0076A655 /* SampleBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87AD368A15C3D7CD0076A655 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		87AD368C15C3D7CD0076A655 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		87AD368E15C3D7CD0076A655 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		87AD369215C3D7CD0076A655 /* SampleBase-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleBase-Info.plist"; sourceTree = "<group>"; };
+		87AD369415C3D7CD0076A655 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		87AD369615C3D7CD0076A655 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87AD369815C3D7CD0076A655 /* SampleBase-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleBase-Prefix.pch"; sourceTree = "<group>"; };
+		87AD369915C3D7CD0076A655 /* studio_iLeafAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = studio_iLeafAppDelegate.h; sourceTree = "<group>"; };
+		87AD369A15C3D7CD0076A655 /* studio_iLeafAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = studio_iLeafAppDelegate.m; sourceTree = "<group>"; };
+		87AD369D15C3D7CD0076A655 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		87AD369F15C3D7CD0076A655 /* studio_iLeafViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = studio_iLeafViewController.h; sourceTree = "<group>"; };
+		87AD36A015C3D7CD0076A655 /* studio_iLeafViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = studio_iLeafViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87AD368315C3D7CD0076A655 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87AD368B15C3D7CD0076A655 /* UIKit.framework in Frameworks */,
+				87AD368D15C3D7CD0076A655 /* Foundation.framework in Frameworks */,
+				87AD368F15C3D7CD0076A655 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87AD367B15C3D7CD0076A655 = {
+			isa = PBXGroup;
+			children = (
+				87AD369015C3D7CD0076A655 /* SampleBase */,
+				87AD368915C3D7CD0076A655 /* Frameworks */,
+				87AD368715C3D7CD0076A655 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87AD368715C3D7CD0076A655 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87AD368615C3D7CD0076A655 /* SampleBase.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87AD368915C3D7CD0076A655 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87AD368A15C3D7CD0076A655 /* UIKit.framework */,
+				87AD368C15C3D7CD0076A655 /* Foundation.framework */,
+				87AD368E15C3D7CD0076A655 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87AD369015C3D7CD0076A655 /* SampleBase */ = {
+			isa = PBXGroup;
+			children = (
+				87AD369915C3D7CD0076A655 /* studio_iLeafAppDelegate.h */,
+				87AD369A15C3D7CD0076A655 /* studio_iLeafAppDelegate.m */,
+				87AD369C15C3D7CD0076A655 /* MainStoryboard.storyboard */,
+				87AD369F15C3D7CD0076A655 /* studio_iLeafViewController.h */,
+				87AD36A015C3D7CD0076A655 /* studio_iLeafViewController.m */,
+				87AD369115C3D7CD0076A655 /* Supporting Files */,
+			);
+			path = SampleBase;
+			sourceTree = "<group>";
+		};
+		87AD369115C3D7CD0076A655 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87AD369215C3D7CD0076A655 /* SampleBase-Info.plist */,
+				87AD369315C3D7CD0076A655 /* InfoPlist.strings */,
+				87AD369615C3D7CD0076A655 /* main.m */,
+				87AD369815C3D7CD0076A655 /* SampleBase-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87AD368515C3D7CD0076A655 /* SampleBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87AD36A415C3D7CD0076A655 /* Build configuration list for PBXNativeTarget "SampleBase" */;
+			buildPhases = (
+				87AD368215C3D7CD0076A655 /* Sources */,
+				87AD368315C3D7CD0076A655 /* Frameworks */,
+				87AD368415C3D7CD0076A655 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleBase;
+			productName = SampleBase;
+			productReference = 87AD368615C3D7CD0076A655 /* SampleBase.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87AD367D15C3D7CD0076A655 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = studio.iLeaf;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 87AD368015C3D7CD0076A655 /* Build configuration list for PBXProject "SampleBase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 87AD367B15C3D7CD0076A655;
+			productRefGroup = 87AD368715C3D7CD0076A655 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87AD368515C3D7CD0076A655 /* SampleBase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87AD368415C3D7CD0076A655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87AD369515C3D7CD0076A655 /* InfoPlist.strings in Resources */,
+				87AD369E15C3D7CD0076A655 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87AD368215C3D7CD0076A655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87AD369715C3D7CD0076A655 /* main.m in Sources */,
+				87AD369B15C3D7CD0076A655 /* studio_iLeafAppDelegate.m in Sources */,
+				87AD36A115C3D7CD0076A655 /* studio_iLeafViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		87AD369315C3D7CD0076A655 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87AD369415C3D7CD0076A655 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		87AD369C15C3D7CD0076A655 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87AD369D15C3D7CD0076A655 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87AD36A215C3D7CD0076A655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		87AD36A315C3D7CD0076A655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87AD36A515C3D7CD0076A655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleBase/SampleBase-Prefix.pch";
+				INFOPLIST_FILE = "SampleBase/SampleBase-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		87AD36A615C3D7CD0076A655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleBase/SampleBase-Prefix.pch";
+				INFOPLIST_FILE = "SampleBase/SampleBase-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87AD368015C3D7CD0076A655 /* Build configuration list for PBXProject "SampleBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87AD36A215C3D7CD0076A655 /* Debug */,
+				87AD36A315C3D7CD0076A655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87AD36A415C3D7CD0076A655 /* Build configuration list for PBXNativeTarget "SampleBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87AD36A515C3D7CD0076A655 /* Debug */,
+				87AD36A615C3D7CD0076A655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87AD367D15C3D7CD0076A655 /* Project object */;
+}
