@@ -13,8 +13,8 @@
 
 @interface SearchManager : NSObject
 
-@property (nonatomic, assign) IBOutlet MainViewController *mainViewController;
-@property (nonatomic, assign) IBOutlet MapManager *mapManager;
+@property (nonatomic, weak) IBOutlet MainViewController *mainViewController;
+@property (nonatomic, weak) IBOutlet MapManager *mapManager;
 
 -(void)goSearch;
 

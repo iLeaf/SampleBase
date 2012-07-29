@@ -13,7 +13,7 @@
 
 @interface MapManager : NSObject
 
-@property (nonatomic, assign) IBOutlet id<MapManagerDelegate> delegate;
+@property (nonatomic, weak) IBOutlet id<MapManagerDelegate> delegate;
 
 -(void)currentLocation;
 

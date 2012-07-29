@@ -14,6 +14,8 @@
 
 @implementation SearchViewController
 
+@synthesize delegate = delegate_;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -38,6 +40,13 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+
+#pragma mark - Actions
+
+- (IBAction)done:(id)sender
+{
+    [self.delegate searchViewControllerdidFinish:self];
 }
 
 @end

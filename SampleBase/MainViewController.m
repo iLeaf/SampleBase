@@ -69,6 +69,16 @@
 }
 
 
+#pragma mark - SearchViewControllerDelegate
+
+- (void)searchViewControllerdidFinish:(SearchViewController *)controller
+{
+    NSLog(@"aaa");
+    [self dismissModalViewControllerAnimated:YES];
+}
+
+
+
 #pragma mark - test
 
 -(IBAction)test:(id)sender
@@ -78,9 +88,21 @@
     UIApplication *app = [UIApplication sharedApplication];
     if (app.statusBarHidden) {
         app.statusBarHidden = NO;
+        //self.navigationController.navigationBarHidden = NO;
     } else {
         app.statusBarHidden = YES;
+        //self.navigationController.navigationBarHidden = YES;
     }
+}
+
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{   
+    UIApplication *app = [UIApplication sharedApplication];
+    app.statusBarHidden = NO;
+    if ([[segue identifier] isEqualToString:@"showSearch"]) {
+        [[segue destinationViewController] setDelegate:self];
+    } 
 }
 
 @end

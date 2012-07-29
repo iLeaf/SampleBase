@@ -6,8 +6,16 @@
 //  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@class SearchViewController;
+
+@protocol SearchViewControllerDelegate
+- (void)searchViewControllerdidFinish:(SearchViewController *)controller;
+@end
 
 @interface SearchViewController : UIViewController
+
+@property (weak, nonatomic) id <SearchViewControllerDelegate> delegate;
+
+- (IBAction)done:(id)sender;
 
 @end
