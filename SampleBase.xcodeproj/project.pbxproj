@@ -18,6 +18,7 @@
 		87AD369E15C3D7CD0076A655 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87AD369C15C3D7CD0076A655 /* MainStoryboard.storyboard */; };
 		87AD36A115C3D7CD0076A655 /* studio_iLeafViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87AD36A015C3D7CD0076A655 /* studio_iLeafViewController.m */; };
 		87AD36A815C3E1B20076A655 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87AD36A715C3E1B20076A655 /* MapKit.framework */; };
+		87D6595E15C5767A002E6E3E /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D6595D15C5767A002E6E3E /* SearchViewController.m */; };
 		87E9B50015C3F481003C17EF /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E9B4FF15C3F481003C17EF /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,8 @@
 		87AD369F15C3D7CD0076A655 /* studio_iLeafViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = studio_iLeafViewController.h; sourceTree = "<group>"; };
 		87AD36A015C3D7CD0076A655 /* studio_iLeafViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = studio_iLeafViewController.m; sourceTree = "<group>"; };
 		87AD36A715C3E1B20076A655 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		87D6595C15C5767A002E6E3E /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		87D6595D15C5767A002E6E3E /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 		87E9B4FE15C3F481003C17EF /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		87E9B4FF15C3F481003C17EF /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,6 +104,8 @@
 				8766F69E15C3F21B00930917 /* MapManager.m */,
 				8766F6A115C3F3B400930917 /* SearchManager.h */,
 				8766F6A215C3F3B400930917 /* SearchManager.m */,
+				87D6595C15C5767A002E6E3E /* SearchViewController.h */,
+				87D6595D15C5767A002E6E3E /* SearchViewController.m */,
 				87AD369115C3D7CD0076A655 /* Supporting Files */,
 			);
 			path = SampleBase;
@@ -186,6 +191,7 @@
 				8766F69F15C3F21B00930917 /* MapManager.m in Sources */,
 				8766F6A315C3F3B400930917 /* SearchManager.m in Sources */,
 				87E9B50015C3F481003C17EF /* MainViewController.m in Sources */,
+				87D6595E15C5767A002E6E3E /* SearchViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
