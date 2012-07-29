@@ -18,4 +18,7 @@
 -(IBAction)currentLocation:(id)sender;
 -(IBAction)goSearch:(id)sender;
 
+
+-(IBAction)test:(id)sender;
+
 @end

@@ -68,4 +68,19 @@
     NSLog(@"%@",address);
 }
 
+
+#pragma mark - test
+
+-(IBAction)test:(id)sender
+{
+    NSLog(@"test");
+    // UIApplicationの取得
+    UIApplication *app = [UIApplication sharedApplication];
+    if (app.statusBarHidden) {
+        app.statusBarHidden = NO;
+    } else {
+        app.statusBarHidden = YES;
+    }
+}
+
 @end
