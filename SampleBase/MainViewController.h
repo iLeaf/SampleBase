@@ -6,14 +6,16 @@
 //  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
 #import "MapManager.h"
 #import "SearchManager.h"
 
 @interface MainViewController : UIViewController
 <MapManagerDelegate>
 
-@property (nonatomic, assign) IBOutlet MapManager *mapManager;
-@property (nonatomic, assign) IBOutlet SearchManager *searchManager;
+@property (nonatomic, strong) IBOutlet MapManager *mapManager;
+@property (nonatomic, strong) IBOutlet SearchManager *searchManager;
+
+-(IBAction)currentLocation:(id)sender;
+-(IBAction)goSearch:(id)sender;
 
 @end

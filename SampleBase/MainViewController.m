@@ -31,7 +31,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
-    [searchManager_ setUp];
+    //[mapManager_ currentLocation:self];
 }
 
 - (void)viewDidUnload
@@ -45,6 +45,20 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+
+#pragma mark - Interface Button
+
+-(IBAction)currentLocation:(id)sender
+{
+    NSLog(@"aa");
+    [mapManager_ currentLocation];
+}
+
+-(IBAction)goSearch:(id)sender
+{
+    NSLog(@"bb");
+    [searchManager_ goSearch];
+}
 
 
 #pragma mark - MapManagerDelegate

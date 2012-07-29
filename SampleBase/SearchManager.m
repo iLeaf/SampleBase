@@ -13,9 +13,9 @@
 @synthesize mainViewController = mainViewController_;
 @synthesize mapManager = mapManager_;
 
--(void)setUp 
+-(void)goSearch
 {
-    [mapManager_ currentLocation];
+    NSLog(@"goSearch");
 }
 
 @end

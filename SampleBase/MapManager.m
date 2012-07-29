@@ -14,8 +14,8 @@
 
 -(void)currentLocation
 {
-    NSLog(@"aaa");
-    [delegate_ newAddress:@"fromMapManager"];
+    NSLog(@"currentLocation");
 }
+
 
 @end

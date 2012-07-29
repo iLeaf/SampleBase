@@ -6,8 +6,6 @@
 //  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-
 @protocol MapManagerDelegate
 -(void)newAddress:(NSString*)address;
 @end
