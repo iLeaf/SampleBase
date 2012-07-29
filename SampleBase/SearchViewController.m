@@ -49,4 +49,29 @@
     [self.delegate searchViewControllerdidFinish:self];
 }
 
+
+- (void) searchItem:(NSString *) searchText {
+    // 検索処理
+    NSLog(@"searchItem");
+}
+
+- (void) searchBarSearchButtonClicked: (UISearchBar *) searchBar {
+	[searchBar resignFirstResponder];
+	[self searchItem:searchBar.text];
+    NSLog(@"searchBarSearchButtonClicked");
+}
+
+- (void) searchBar:(UISearchBar *)searchBar textDidChange:(NSString *) searchText {
+	NSLog(@"serch text=%@", searchText);
+	if ([searchText length]!=0) {
+		// インクリメンタル検索など
+	}
+}
+
+- (void)searchBarCancelButtonClicked:(UISearchBar *)searchBar
+{
+    NSLog(@"searchBarCancelButtonClicked");
+}
+
+
 @end
