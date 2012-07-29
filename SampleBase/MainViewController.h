@@ -11,6 +11,7 @@
 #import "SearchManager.h"
 
 @interface MainViewController : UIViewController
+<MapManagerDelegate>
 
 @property (nonatomic, assign) IBOutlet MapManager *mapManager;
 @property (nonatomic, assign) IBOutlet SearchManager *searchManager;

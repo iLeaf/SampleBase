@@ -10,11 +10,12 @@
 
 @implementation MapManager
 
-@synthesize mainViewController = mainViewController_;
+@synthesize delegate = delegate_;
 
 -(void)currentLocation
 {
     NSLog(@"aaa");
+    [delegate_ newAddress:@"fromMapManager"];
 }
 
 @end

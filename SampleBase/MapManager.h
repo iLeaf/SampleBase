@@ -8,11 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
-@class MainViewController;
+@protocol MapManagerDelegate
+-(void)newAddress:(NSString*)address;
+@end
+
 
 @interface MapManager : NSObject
 
-@property (nonatomic, assign) IBOutlet MainViewController *mainViewController;
+@property (nonatomic, assign) IBOutlet id<MapManagerDelegate> delegate;
 
 -(void)currentLocation;
 

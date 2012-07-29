@@ -45,4 +45,13 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+
+
+#pragma mark - MapManagerDelegate
+
+-(void)newAddress:(NSString*)address
+{
+    NSLog(@"%@",address);
+}
+
 @end
