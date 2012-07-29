@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8766F69F15C3F21B00930917 /* MapManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8766F69E15C3F21B00930917 /* MapManager.m */; };
+		8766F6A315C3F3B400930917 /* SearchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8766F6A215C3F3B400930917 /* SearchManager.m */; };
 		87AD368B15C3D7CD0076A655 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87AD368A15C3D7CD0076A655 /* UIKit.framework */; };
 		87AD368D15C3D7CD0076A655 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87AD368C15C3D7CD0076A655 /* Foundation.framework */; };
 		87AD368F15C3D7CD0076A655 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87AD368E15C3D7CD0076A655 /* CoreGraphics.framework */; };
@@ -15,9 +17,15 @@
 		87AD369B15C3D7CD0076A655 /* studio_iLeafAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87AD369A15C3D7CD0076A655 /* studio_iLeafAppDelegate.m */; };
 		87AD369E15C3D7CD0076A655 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87AD369C15C3D7CD0076A655 /* MainStoryboard.storyboard */; };
 		87AD36A115C3D7CD0076A655 /* studio_iLeafViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87AD36A015C3D7CD0076A655 /* studio_iLeafViewController.m */; };
+		87AD36A815C3E1B20076A655 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87AD36A715C3E1B20076A655 /* MapKit.framework */; };
+		87E9B50015C3F481003C17EF /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E9B4FF15C3F481003C17EF /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8766F69D15C3F21B00930917 /* MapManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapManager.h; sourceTree = "<group>"; };
+		8766F69E15C3F21B00930917 /* MapManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapManager.m; sourceTree = "<group>"; };
+		8766F6A115C3F3B400930917 /* SearchManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchManager.h; sourceTree = "<group>"; };
+		8766F6A215C3F3B400930917 /* SearchManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchManager.m; sourceTree = "<group>"; };
 		87AD368615C3D7CD0076A655 /* SampleBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87AD368A15C3D7CD0076A655 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		87AD368C15C3D7CD0076A655 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -31,6 +39,9 @@
 		87AD369D15C3D7CD0076A655 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		87AD369F15C3D7CD0076A655 /* studio_iLeafViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = studio_iLeafViewController.h; sourceTree = "<group>"; };
 		87AD36A015C3D7CD0076A655 /* studio_iLeafViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = studio_iLeafViewController.m; sourceTree = "<group>"; };
+		87AD36A715C3E1B20076A655 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		87E9B4FE15C3F481003C17EF /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		87E9B4FF15C3F481003C17EF /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87AD36A815C3E1B20076A655 /* MapKit.framework in Frameworks */,
 				87AD368B15C3D7CD0076A655 /* UIKit.framework in Frameworks */,
 				87AD368D15C3D7CD0076A655 /* Foundation.framework in Frameworks */,
 				87AD368F15C3D7CD0076A655 /* CoreGraphics.framework in Frameworks */,
@@ -67,6 +79,7 @@
 		87AD368915C3D7CD0076A655 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				87AD36A715C3E1B20076A655 /* MapKit.framework */,
 				87AD368A15C3D7CD0076A655 /* UIKit.framework */,
 				87AD368C15C3D7CD0076A655 /* Foundation.framework */,
 				87AD368E15C3D7CD0076A655 /* CoreGraphics.framework */,
@@ -82,6 +95,12 @@
 				87AD369C15C3D7CD0076A655 /* MainStoryboard.storyboard */,
 				87AD369F15C3D7CD0076A655 /* studio_iLeafViewController.h */,
 				87AD36A015C3D7CD0076A655 /* studio_iLeafViewController.m */,
+				87E9B4FE15C3F481003C17EF /* MainViewController.h */,
+				87E9B4FF15C3F481003C17EF /* MainViewController.m */,
+				8766F69D15C3F21B00930917 /* MapManager.h */,
+				8766F69E15C3F21B00930917 /* MapManager.m */,
+				8766F6A115C3F3B400930917 /* SearchManager.h */,
+				8766F6A215C3F3B400930917 /* SearchManager.m */,
 				87AD369115C3D7CD0076A655 /* Supporting Files */,
 			);
 			path = SampleBase;
@@ -164,6 +183,9 @@
 				87AD369715C3D7CD0076A655 /* main.m in Sources */,
 				87AD369B15C3D7CD0076A655 /* studio_iLeafAppDelegate.m in Sources */,
 				87AD36A115C3D7CD0076A655 /* studio_iLeafViewController.m in Sources */,
+				8766F69F15C3F21B00930917 /* MapManager.m in Sources */,
+				8766F6A315C3F3B400930917 /* SearchManager.m in Sources */,
+				87E9B50015C3F481003C17EF /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +297,7 @@
 				87AD36A615C3D7CD0076A655 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
