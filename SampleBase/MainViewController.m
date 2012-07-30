@@ -8,6 +8,7 @@
 
 #import "MainViewController.h"
 
+
 @interface MainViewController ()
 
 @end
@@ -103,6 +104,22 @@
     if ([[segue identifier] isEqualToString:@"showSearch"]) {
         [[segue destinationViewController] setDelegate:self];
     } 
+    
+    if ([[segue identifier] isEqualToString:@"showSetting"]) {
+        //[[segue destinationViewController] setDelegate:self];
+        //NSLog(@"showSetting aa");
+        
+        UINavigationController *navController = (UINavigationController *)[segue destinationViewController];
+        SettingViewController *addViewController = (SettingViewController *)[navController topViewController];
+        addViewController.delegate = self;
+        NSLog(@"ouou");
+    } 
+}
+
+-(void)settingViewControllerDidFinish:(SettingViewController *)controller
+{
+    NSLog(@"vvv");
+    [self dismissModalViewControllerAnimated:YES];
 }
 
 @end

@@ -9,9 +9,10 @@
 #import "MapManager.h"
 #import "SearchManager.h"
 #import "SearchViewController.h"
+#import "SettingViewController.h"
 
 @interface MainViewController : UIViewController
-<MapManagerDelegate, SearchViewControllerDelegate>
+<MapManagerDelegate, SearchViewControllerDelegate, SettingViewControllerDelegate>
 
 @property (nonatomic, strong) IBOutlet MapManager *mapManager;
 @property (nonatomic, strong) IBOutlet SearchManager *searchManager;
